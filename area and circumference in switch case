@@ -1,0 +1,24 @@
+#include<stdio.h>
+main()
+{
+	int area,pi,circumference,radius,ch;
+	pi=3.142;
+	printf("enter the choice");
+	scanf("%d",&ch);
+	printf("enter the value radius");
+	scanf("%d",&radius);
+	switch(ch)
+	{
+	
+	case 1:
+          area=pi*radius*radius;
+          printf("area=%d",area);
+          break;
+          case 2:
+          circumference=2*pi*radius;
+          printf("cir=%d",circumference);
+          break;
+}
+          return 0;
+}
+		
