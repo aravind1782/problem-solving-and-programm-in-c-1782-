@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	int a,r,pi,c;
+	pi=3.142;
+	printf("enter the value r");
+	scanf("%d",&r);
+	c=2*pi*r;
+	printf("%d",c);
+	a=pi*r*r;
+	printf("\n%d",a);
+	return 0;
+}
