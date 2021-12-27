@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+	float a,b;
+	printf("enter two numbers:");
+	scanf("%f %f",&a,&b);
+	printf("\nsum of two ",a+b );
+	printf("\nsub of two%f ",a-b );
+	printf("\nmultiply of two%f ",a*b );
+	printf("\ndiv of two%f ",a/b );
+}
