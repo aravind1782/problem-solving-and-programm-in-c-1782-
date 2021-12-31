@@ -1,0 +1,26 @@
+#include<stdio.h>
+void add();
+void sub();
+void mul();
+void div();
+ main()
+{
+	printf("..");
+	add();
+	sub();
+}
+
+void add()
+{
+	int a,b;
+	printf("enter values a,b");
+	scanf("%d %d",&a,&b);
+	printf("%d",a+b);
+}
+void sub()
+{
+	int c,d;
+	printf("enter values c,d");
+	scanf("%d %d",&c,&d);
+	printf("%d sub of two values",c-d);
+}
