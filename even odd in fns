@@ -1,0 +1,30 @@
+#include<stdio.h>
+void even();
+void odd();
+void even()
+{
+    int i;
+    for(i=1;i<=50;i++)
+    {
+    if	(i%2==0)
+    printf("%d ",i);	
+    }
+}
+void odd()
+{
+	int j;
+for(j=50;j<=100;++j)
+
+{
+	if(j%2!=0)
+   printf("%d ",j);
+}
+}c
+void main()
+{
+	printf("even numbers ");
+	
+ even();
+ printf("\n\nodd numbers ");
+ odd();
+}
