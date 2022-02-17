@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+    int i,y;
+ char name[10];
+ FILE *fp;
+ fp=fopen("students.txt","w");
+ printf("enter student mobile num");
+ scanf("%d",&i);
+ printf("Enter student name:");
+ scanf("%s",name);
+ fprintf(fp,"%d\n%s",i,name);
+ fclose(fp);
+
+}
